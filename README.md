@@ -1,5 +1,4 @@
 # wikipedia-search
-
 Wikipedia Search Application that takes a user search input and returns list of related wikipedia pages.
 
 If user types in "random" in the searchbar, it will retrieve a Wikiepedia page selected at random and return related articles from the searched word "random".
