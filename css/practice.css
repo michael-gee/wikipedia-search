@@ -1,0 +1,125 @@
+@import 'https://fonts.googleapis.com/css?family=Quicksand';
+
+/* BODY */
+body {
+  background-color: #F9F9F9;
+  font-family: Times, Georgia, Linux Libertine, Cambria, serif; 
+  width: 100%;
+  font-weight: normal;
+}
+
+/* HEADINGS */
+h1 {
+  font-weight: normal;
+}
+
+/* SEARCH-WIKI DIV */
+.search-wiki{
+  max-width: 320px; 
+  margin: 0 auto; 
+  text-align: center;
+}
+
+/* SEARCH-WIKI DIV MEDIA QUERY */
+@media screen and (max-width: 665px) { 
+  .search-wiki {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 440px) { 
+  .search-wiki {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 665px) { 
+  .search-wiki {
+    margin-top: 335px;
+  }
+}
+
+/* SEARCH-DIV */
+.search-div {
+  padding-bottom: 10px;
+}
+
+.fa-search {
+  cursor: pointer;
+}
+
+/* Input field Bar CSS */
+#search-input {
+    width: 250px;
+    padding: 12px 15px;
+    margin: 8px 0;
+}
+
+/* X Button inside input bar CSS */
+.fa-times {
+  cursor: pointer;
+  margin-left: -25px;
+}
+
+/* SEARCH BAR */
+.search-bar {
+  display:none;
+}
+
+/* Search Input Media Query */
+@media screen and (max-width: 335px) { 
+  #search-input {
+    width: 200px;
+  }
+}
+
+/* RANDOM-SEARCH DIV */
+.random-search {
+  float: right;
+  padding-top: 25px;
+}
+
+/* RANDOM SEARCH BUTTON COLOR */
+#random-search-button {
+  color: black;
+} 
+#random-search-button:visited {
+  color: black;
+}
+
+.fa-question-circle {
+  cursor: pointer;
+}
+
+/* DISPLAY RESULTS DIV */
+#display-result{
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* API results CSS */
+.result {
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.result:hover {
+  border-left: 5px solid black;
+}
+
+a.result-link {
+  color: black;
+  text-decoration: none;
+}
+
+/* Paragraph results CSS */
+.result p {
+  font-family: "Quicksand";
+}
+
+/* Title results CSS */
+h2 {
+  font-family: "Quicksand";
+}
