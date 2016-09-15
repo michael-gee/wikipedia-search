@@ -6,3 +6,5 @@ If user types in "random" in the searchbar, it will retrieve a Wikiepedia page s
 I used HTML/CSS/Javascript/jQuery in this project along with Google Fonts and Font-Awesome Icons CDN. 
 
 CodePen link is here: http://codepen.io/michaelg22/full/YGXrVR/
+
+GitHub link is here: https://michaelgee22.github.io/wikipedia-search/index.html
