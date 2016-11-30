@@ -4,58 +4,38 @@
 body {
   background-color: #F9F9F9;
   font-family: Times, Georgia, Linux Libertine, Cambria, serif; 
-  width: 100%;
   font-weight: normal;
 }
 
 /* HEADINGS */
 h1 {
   font-weight: normal;
+  margin: 0;
+}
+
+.aligner {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* SEARCH-WIKI DIV */
 .search-wiki{
-  max-width: 320px; 
-  margin: 0 auto; 
   text-align: center;
-}
-
-/* SEARCH-WIKI DIV MEDIA QUERY */
-@media screen and (max-width: 665px) { 
-  .search-wiki {
-    margin-top: 150px;
-  }
-}
-
-@media screen and (max-width: 440px) { 
-  .search-wiki {
-    margin-top: 50px;
-  }
-}
-
-@media screen and (min-width: 665px) { 
-  .search-wiki {
-    margin-top: 335px;
-  }
-}
-
-/* SEARCH-DIV */
-.search-div {
-  padding-bottom: 10px;
 }
 
 .fa-search {
   cursor: pointer;
 }
 
-/* Input field Bar CSS */
 #search-input {
     width: 250px;
     padding: 12px 15px;
     margin: 8px 0;
 }
 
-/* X Button inside input bar CSS */
 .fa-times {
   cursor: pointer;
   margin-left: -25px;
@@ -76,7 +56,7 @@ h1 {
 /* RANDOM-SEARCH DIV */
 .random-search {
   float: right;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 /* RANDOM SEARCH BUTTON COLOR */
@@ -97,12 +77,20 @@ h1 {
   margin: 0 auto;
 }
 
-/* API results CSS */
+
 .result {
   background-color: white;
   padding: 10px 15px 10px 15px;
   margin: 15px;
   cursor: pointer;
+}
+
+.result p {
+  font-family: "Quicksand";
+}
+
+h2 {
+  font-family: "Quicksand";
 }
 
 .result:hover {
@@ -114,12 +102,8 @@ a.result-link {
   text-decoration: none;
 }
 
-/* Paragraph results CSS */
-.result p {
-  font-family: "Quicksand";
+/* DISPLAY NONE CLASS */
+.none {
+  display: none;
 }
 
-/* Title results CSS */
-h2 {
-  font-family: "Quicksand";
-}
