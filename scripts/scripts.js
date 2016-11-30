@@ -20,6 +20,7 @@ $(".fa-times").on("click", function(){
     $(".fa-search").hide().fadeIn(1000);
   } else {
      $("#search-input").val("");
+     $("#search-input").focus();
   }
   
 });
