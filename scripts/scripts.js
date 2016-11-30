@@ -4,6 +4,7 @@ $(".fa-search").on("click", function(){
   
   $(".fa-search").hide();
   $(".search-bar").hide().fadeIn(2000);
+  $("#search-input").focus();
   
 });
 
@@ -29,8 +30,14 @@ function getWiki() {
   var displayResultDiv = document.getElementById("display-result").innerHTML;
   
   //Move header to top and hide random wiki button
-  $(".search-wiki").css("margin-top", "50px");
+  $(".aligner").css({
+    "display": "block",
+    "height": "auto",
+    "margin": "0 auto",
+    "margin-top": "20px",
+  });
   $(".fa-question-circle").hide();
+  $(".random-explanation").fadeIn();
   
   currentInput = $("#search-input").val();
   
