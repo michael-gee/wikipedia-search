@@ -5,6 +5,7 @@ body {
   background-color: #F9F9F9;
   font-family: Times, Georgia, Linux Libertine, Cambria, serif; 
   font-weight: normal;
+  height: 100vh; 
 }
 
 /* HEADINGS */
@@ -14,7 +15,8 @@ h1 {
 }
 
 .aligner {
-  height: 100vh; 
+  height: 100vh;
+  width: -webkit-calc(100% - 0px);
   display: flex;
   justify-content: center;
   flex-direction: column;
